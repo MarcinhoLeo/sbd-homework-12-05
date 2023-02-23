@@ -29,4 +29,4 @@ from payment p, rental r, customer c
 where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id 
 group by c.customer_id;
 ```
-![alt tag](https://github.com/MarcinhoLeo/sdb-homework-12-05/blob/main/images/hw.png)
+![alt tag](https://github.com/MarcinhoLeo/sbd-homework-12-05/blob/main/images/hw.png)
