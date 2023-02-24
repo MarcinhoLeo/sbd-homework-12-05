@@ -100,4 +100,4 @@ group by pio
                     -> Single-row index lookup on c using PRIMARY (customer_id=r.customer_id)  (cost=0.25 rows=1) (actual time=0.001..0.001 rows=1 loops=642)
                 -> Single-row covering index lookup on i using PRIMARY (inventory_id=r.inventory_id)  (cost=0.25 rows=1) (actual time=0.001..0.001 rows=1 loops=642)
 ```
-![alt tag](https://github.com/MarcinhoLeo/sbd-homework-12-05/blob/main/images/hw.png)
+
